@@ -1,0 +1,9 @@
+{products.length>0 &&products.map((product)=>{
+        return ( <li>
+          <img src={product.image} alt="product_img"/>
+          <h6>{product.title}</h6>
+          <h3>{product.price}</h3>
+        </li>)
+         
+        })
+      }
